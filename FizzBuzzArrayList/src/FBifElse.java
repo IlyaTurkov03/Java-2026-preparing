@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class FBifElse {
-    //выводим числа от 1 до 30 заменяя кратные 3 на fizz, 5 на Buzz, а 7 на Bang
     public static  void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int j = sc.nextInt();
@@ -36,3 +35,4 @@ public class FBifElse {
         }
     }
 }
+
