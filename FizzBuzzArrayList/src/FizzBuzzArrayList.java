@@ -19,8 +19,7 @@ public class FizzBuzzArrayList {
         }
     }
 
-    //проверить пустой вариант ответа
-    //объявить лист, провести проверку условия с его помощью, создать вывод и отдельный цифровой вывод для неподходящих значений
+   
     public static ArrayList<String> fizzBuzz(int limit) {
         ArrayList<String> result = new ArrayList<>();
         for (int i = 1; i <= limit; i++) {
